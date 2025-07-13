@@ -6,3 +6,21 @@ crosstool-ng
 aesd-build
 .vscode/
 test.sh.log
+# Ignore large build directories and artifacts
+linux-stable/
+busybox/
+busybox-*.tar.*
+*.o
+*.d
+*.img
+*.bin
+*.gz
+*.cpio
+*.log
+*.old
+*.tmp
+*.swp
+*.cmd
+__pycache__/
+core
+vmlinux

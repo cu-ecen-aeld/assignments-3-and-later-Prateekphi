@@ -1,0 +1,7 @@
+#!/bin/sh
+mount -t proc none /proc
+mount -t sysfs none /sys
+echo "Booted into QEMU!"
+/home/writer /tmp/boot.txt "Boot message from writer"
+exec /bin/sh
+
