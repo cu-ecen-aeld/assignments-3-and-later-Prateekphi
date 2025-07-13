@@ -1,6 +1,6 @@
 # Makefile for writer
 CC = $(CROSS_COMPILE)gcc
-CFLAGS = -Wall -Werror -g
+CFLAGS = -Wall -Werror -g -static
 
 TARGET = writer
 SRC = writer.c
